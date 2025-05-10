@@ -10,7 +10,7 @@ Este é o meu primeiro projeto publicado no GitHub! Um clone da interface da Net
 
 ## 📷 Imagem do projeto
 
-![Screenshot do Clone da Netflix](https://github.com/bellDataSc/Visualizacao-de-Dados-e-Graficos-em-Python/blob/9ec31e5b4b808b9057fcc67bd0d6f8dec6285862/imagens/__results___4_0.png)
+![Screenshot do Clone da Netflix](https://github.com/bya123bya/Netflix-clone/blob/45b3c5e57a148248eaa08720bf9248c5fbc51f27/print%20netlfix.png)
 
 ## 🛠️ Funcionalidades
 
