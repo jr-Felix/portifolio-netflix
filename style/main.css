@@ -96,7 +96,7 @@ header nav a:hover{
 
 
 .container{
-    margin-left: 20px; /* espaçamneto texto esq p/ dir */
+    margin-left: 20px; /* espaçamento texto esq p/ dir */
 }
 
 .filme-principal .container{
@@ -112,24 +112,5 @@ header nav a:hover{
 
 
 .carrosel-filmes{
-    margin-top:5px; /* disntancia entre img e img corrocel*/
+    margin-top:5px; /* distancia entre img e img carrocel*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
