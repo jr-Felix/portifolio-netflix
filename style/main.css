@@ -1,6 +1,7 @@
 :root{
     --vermelho:#E50914;
     --preta:#141414;
+    
 }
 
 *{
@@ -9,14 +10,14 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
+/*elementos base cor de fundo e do texto menu e resumo */
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
    color:white;
 }
 
-
+/* menu lado dir.*/
 header .container{
     display:flex;
     flex-direction: row;
@@ -29,9 +30,10 @@ header .logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size:40px;
+    font-size:30px;     /* 40 */
 }
 
+/* cor do menu texto */
 header nav a{
     text-decoration:none;
     color:#AAA;
@@ -44,30 +46,31 @@ header nav a:hover{
 }
 
 /*filme principal*/
-.filme-principal{
+.texto-resumo{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), 
+     url("/img/capa-house.jpg"); 
 
-    height:200px;
+    height: 250px; /* altura img principal*/
     background-size:cover;
- 
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; /* center texto ??? */
     align-items: flex-start;
 }
 
-
-.filme-principal .descricao{
-    margin-top: 10px;
-    margin-bottom: 40px;
+.resumo {
+    margin: 5;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 40px; /* texto */
+    text-align: justify;
+    
 }
 
-
-.filme-principal .titulo{
-    margin-top: 150%;
-    font-size: 40px;
+.texto-resumo .titulo{
+    margin-top: 160%; 
+    font-size: 35px; /* 40 RESUMO */
     font-family: 'Trebuchet MS', Arial, sans-serif;
     text-align: left;
 }
@@ -78,8 +81,11 @@ header nav a:hover{
     color: white;
 
     padding:15px 30px;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-bottom: 900px; /*botao*/
+
     font-size: 12px;
+    
 
     cursor: pointer;
     transition: .3s ease all;
@@ -91,26 +97,30 @@ header nav a:hover{
 }
 
 .botao i{
-    margin-right: 8px;
+    margin-right: 8px; 
 }
 
 
 .container{
-    margin-left: 20px; /* espaçamento texto esq p/ dir */
+    margin-left: 40px; /* espaçamento texto esq p/ dir */
 }
 
-.filme-principal .container{
-    width: 60%;
+.texto-resumo .container{
+    width: 98%; /* largura do texto na tela */
+    margin-left: 20px;
+    padding: 0px;
+    text-align: justify;
 }
 
-.box-filme{
-    height: 100%;
-    width: 100%;
+/* dimensões img */ 
+.box-img{
+    height: 200px; /*altura */
+    width: 300px; /* largura */
     display: block;
     cursor: pointer;
 }
 
 
-.carrosel-filmes{
-    margin-top:5px; /* distancia entre img e img carrocel*/
+.carrosel{
+    margin-top: 5px; /* distancia entre img e img top carrocel*/
 }
